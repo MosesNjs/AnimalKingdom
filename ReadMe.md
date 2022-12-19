@@ -21,51 +21,86 @@ To use this code, please clone this repository. Or you can always copy the copy 
 Ensure you have node installed and enter this command in your terminal:
 Node AnimalKingdom.js.
 
-You should be greeted with the following if the code works as intended. 
+You should be greeted with the following if the code works as intended:
+
 This is a simple classification for Kingdom Animalia:
-[
-  Arthropoda {
+
+	[Arthropoda{ 
+	
+    
+	kingdom: 'Animalia',
+    
+	name: 'Arthropoda',
+    
+	backbone: 'have no backbone',
+    
+	bloodtemperature: 'cold blooded',
+    
+	summary: 'Arthropoda are cold blooded and have no backbone. Examples include Spiders and Scorpions.' },
+    
+	
+  	Fish {
+  
     kingdom: 'Animalia',
-    name: 'Arthropoda',
-    backbone: 'have no backbone',
-    bloodtemperature: 'cold blooded',
-    summary: 'Arthropoda are cold blooded and have no backbone. Examples include Spiders and Scorpions.'
-  },
-  Fish {
-    kingdom: 'Animalia',
+	
     name: 'Fish',
+	
     backbone: 'have a backbone',
+	
     bloodtemperature: 'cold blooded',
-    summary: 'Fish are cold blooded and have a backbone. Examples include Sharks and Eels.'
-  },
-  Amphibia {
+	
+    summary: 'Fish are cold blooded and have a backbone. Examples include Sharks and Eels.'},
+  
+	
+	Amphibia {
+  
     kingdom: 'Animalia',
+	
     name: 'Amphibia',
+	
     backbone: 'have a backbone',
+	
     bloodtemperature: 'cold blooded',
-    summary: 'Amphibias are cold blooded and have a backbone. Examples include Newts and Toads.'
-  },
-  Reptile {
+	
+    summary: 'Amphibias are cold blooded and have a backbone. Examples include Newts and Toads.'},
+	
+  
+  	Reptile {
+  
     kingdom: 'Animalia',
+	
     name: 'Reptile',
+	
     backbone: 'have a backbone',
+	
     bloodtemperature: 'cold blooded',
-    summary: 'Reptiles are cold blooded and have a backbone. Examples include Crocodiles and Turtles.'
-  },
-  AVES {
+	
+    summary: 'Reptiles are cold blooded and have a backbone. Examples include Crocodiles and Turtles.'},
+	
+  
+  	AVES {
+  
     kingdom: 'Animalia',
+	
     name: 'AVES',
+	
     backbone: 'have a backbone',
+	
     bloodtemperature: 'warm blooded',
-    summary: 'AVES are warm blooded and have a backbone. Examples include Ducks and Pigeons.'
-  },
-  Mammal {
+	
+    summary: 'AVES are warm blooded and have a backbone. Examples include Ducks and Pigeons.'},
+	
+  
+  	Mammal {
+  
     kingdom: 'Animalia',
+	
     name: 'Mammal',
+	
     backbone: 'have a backbone',
+	
     bloodtemperature: 'warm blooded',
-    summary: 'Mammals are warm blooded and have a backbone. Examples include Sheep and Humans.'
-  }
-]
+	
+    summary: 'Mammals are warm blooded and have a backbone. Examples include Sheep and Humans.'}]
 
 Please reach out if you have any questions or revision ideas, i'm always available.
